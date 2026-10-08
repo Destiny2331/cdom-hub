@@ -269,10 +269,39 @@
 
   </section>
 
-  <footer>
+  <footer>.app-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111118;
+  border-top: 2px solid #f5c400;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 5px;
+  z-index: 9999;
+}
+
+.app-nav a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+}
+
+.app-nav span {
+  display: block;
+  margin-top: 4px;
+}
     <p>© 2026 CODM Hub</p>
     <p>Independent Call of Duty Mobile fan website.</p>
   </footer>
 
 </body>
+<nav class="app-nav">
+  <a href="#news">🏠<span>Home</span></a>
+  <a href="#guides">🔫<span>Weapons</span></a>
+  <a href="#settings">⚙️<span>Settings</span></a>
+  <a href="#downloads">📥<span>Downloads</span></a>
+</nav>
 </html>
