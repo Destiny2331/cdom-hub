@@ -1,0 +1,175 @@
+CODM HUB
+ULTIMATE SENSITIVITY GUIDE
+iPhone • iPad/Tablet • Android
+
+================================
+IMPORTANT
+================================
+
+These are recommended starting settings.
+Sensitivity can feel different depending on
+screen size, FPS, touch response and play style.
+
+Start with these settings, then adjust by 5–10
+points if your aim feels too fast or too slow.
+
+
+================================
+IPHONE
+================================
+
+MP CAMERA
+
+Standard: 95
+ADS: 100
+Tactical Scope: 90
+Sniper Scope: 55
+3x Tactical Scope: 80
+4x Tactical Scope: 65
+6x Tactical Scope: 45
+8x Tactical Scope: 35
+
+MP FIRING
+
+Standard: 95
+ADS: 105
+Tactical Scope: 95
+Sniper Scope: 55
+3x Tactical Scope: 80
+4x Tactical Scope: 65
+6x Tactical Scope: 45
+8x Tactical Scope: 35
+
+
+================================
+IPAD / TABLET
+================================
+
+MP CAMERA
+
+Standard: 105
+ADS: 110
+Tactical Scope: 100
+Sniper Scope: 60
+3x Tactical Scope: 85
+4x Tactical Scope: 70
+6x Tactical Scope: 50
+8x Tactical Scope: 40
+
+MP FIRING
+
+Standard: 105
+ADS: 115
+Tactical Scope: 105
+Sniper Scope: 60
+3x Tactical Scope: 85
+4x Tactical Scope: 70
+6x Tactical Scope: 50
+8x Tactical Scope: 40
+
+
+================================
+ANDROID
+================================
+
+MP CAMERA
+
+Standard: 100
+ADS: 105
+Tactical Scope: 95
+Sniper Scope: 55
+3x Tactical Scope: 80
+4x Tactical Scope: 65
+6x Tactical Scope: 45
+8x Tactical Scope: 35
+
+MP FIRING
+
+Standard: 100
+ADS: 110
+Tactical Scope: 100
+Sniper Scope: 55
+3x Tactical Scope: 80
+4x Tactical Scope: 65
+6x Tactical Scope: 45
+8x Tactical Scope: 35
+
+
+================================
+BATTLE ROYALE
+================================
+
+CAMERA
+
+TPP: 100
+FPP: 95
+Optics: 90
+Tactical Scope: 85
+Sniper Scope: 55
+3x: 75
+4x: 60
+6x: 45
+8x: 35
+
+FIRING
+
+TPP: 100
+FPP: 95
+Optics: 95
+Tactical Scope: 90
+Sniper Scope: 55
+3x: 75
+4x: 60
+6x: 45
+8x: 35
+
+
+================================
+GYROSCOPE
+================================
+
+STANDARD: 140
+ADS: 135
+TACTICAL SCOPE: 115
+SNIPER SCOPE: 70
+3x: 95
+4x: 75
+6x: 50
+8x: 40
+
+
+================================
+4-FINGER HUD
+================================
+
+Recommended for players who use four fingers:
+
+Left thumb:
+Movement
+
+Right thumb:
+Camera / aiming
+
+Left index:
+Fire
+
+Right index:
+ADS / other controls
+
+Gyroscope:
+ON
+
+
+================================
+TIPS
+================================
+
+1. Test your sensitivity in Practice Range.
+2. Increase sensitivity if turning feels too slow.
+3. Decrease sensitivity if your aim feels shaky.
+4. Keep your FPS as high and stable as possible.
+5. Give yourself time to adjust before changing
+   your settings again.
+
+CODM HUB
+Independent Call of Duty Mobile fan website.
