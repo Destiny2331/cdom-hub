@@ -1,20 +1,269 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CODM Hub</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b0b0f;
+      color: white;
+    }
+
+    header {
+      background: #111118;
+      text-align: center;
+      padding: 25px 15px;
+      border-bottom: 2px solid #f5c400;
+    }
+
+    header h1 {
+      color: #f5c400;
+      font-size: 32px;
+    }
+
+    header p {
+      color: #aaa;
+      margin-top: 8px;
+    }
+
+    nav {
+      background: #17171f;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 8px;
+      font-size: 14px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 65px 20px;
+      background: linear-gradient(135deg, #181820, #08080b);
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+
+    .hero span {
+      color: #f5c400;
+    }
+
+    .hero p {
+      color: #ccc;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 13px 25px;
+      background: #f5c400;
+      color: #111;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 45px 20px;
+    }
+
+    section h2 {
+      color: #f5c400;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: #17171f;
+      border: 1px solid #292933;
+      border-radius: 12px;
+      padding: 22px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #aaa;
+      font-size: 14px;
+    }
+
+    .download {
+      text-align: center;
+      background: #17171f;
+      padding: 35px 20px;
+      border-radius: 12px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 15px;
+      background: #08080b;
+      color: #777;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>🎮 CODM Hub</h1>
 
-  <p>Welcome to CODM Hub!</p>
-  <p>Find Call of Duty Mobile news, guides, settings and downloads.</p>
+  <header>
+    <h1>🎮 CODM HUB</h1>
+    <p>Your Call of Duty Mobile Community</p>
+  </header>
 
-  <h2>🔥 Coming Soon</h2>
-  <p>CODM sensitivity settings</p>
-  <p>Weapon guides</p>
-  <p>Game updates</p>
-  <p>Downloads</p>
+  <nav>
+    <a href="#news">News</a>
+    <a href="#guides">Guides</a>
+    <a href="#settings">Settings</a>
+    <a href="#downloads">Downloads</a>
+  </nav>
+
+  <div class="hero">
+    <h2>WELCOME TO <span>CODM HUB</span></h2>
+
+    <p>
+      Discover Call of Duty Mobile news, weapon guides,
+      sensitivity settings, events and useful gaming resources.
+    </p>
+
+    <a class="button" href="#guides">Explore CODM Hub</a>
+  </div>
+
+  <section id="news">
+    <h2>🔥 CODM News</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>🎯 Game Updates</h3>
+        <p>
+          Stay updated with the latest Call of Duty Mobile
+          updates and changes.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🎁 Events</h3>
+        <p>
+          Discover upcoming events, challenges and rewards.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🔫 New Weapons</h3>
+        <p>
+          Learn about new weapons and how to use them.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="guides">
+    <h2>🔫 CODM Guides</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Battle Royale</h3>
+        <p>
+          Useful BR loadouts and gameplay tips.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Multiplayer</h3>
+        <p>
+          Improve your multiplayer gameplay with useful tips.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Weapon Guides</h3>
+        <p>
+          Learn about weapons, attachments and builds.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="settings">
+    <h2>⚙️ Sensitivity Settings</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>MP Sensitivity</h3>
+        <p>
+          Recommended settings for smoother multiplayer aiming.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>BR Sensitivity</h3>
+        <p>
+          Recommended settings for Battle Royale.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Gyroscope</h3>
+        <p>
+          Learn how to configure your gyroscope for better control.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="downloads">
+
+    <div class="download">
+
+      <h2>📥 Downloads</h2>
+
+      <p>
+        Useful CODM resources and gaming files will be available here.
+      </p>
+
+      <a class="button" href="#">
+        Downloads Coming Soon
+      </a>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <p>© 2026 CODM Hub</p>
+    <p>Independent Call of Duty Mobile fan website.</p>
+  </footer>
+
 </body>
 </html>
