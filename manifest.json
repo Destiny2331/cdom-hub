@@ -1,0 +1,11 @@
+{
+  "name": "CODM Hub",
+  "short_name": "CODM Hub",
+  "description": "Call of Duty Mobile news, guides, sensitivity settings and downloads.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b0b0f",
+  "theme_color": "#f5c400",
+  "orientation": "portrait",
+  "icons": []
+}
