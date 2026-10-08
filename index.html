@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#f5c400">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CODM Hub</title><title>CODM Hub</title>
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="CODM Hub">
+
+  <title>CODM Hub</title>
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#f5c400">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="CODM Hub">
 
   <style>
     * {
@@ -21,6 +24,7 @@
       font-family: Arial, sans-serif;
       background: #0b0b0f;
       color: white;
+      padding-bottom: 75px;
     }
 
     header {
@@ -40,13 +44,13 @@
       margin-top: 8px;
     }
 
-    nav {
+    .top-nav {
       background: #17171f;
       padding: 15px;
       text-align: center;
     }
 
-    nav a {
+    .top-nav a {
       color: white;
       text-decoration: none;
       margin: 0 8px;
@@ -72,12 +76,13 @@
       color: #ccc;
       max-width: 600px;
       margin: auto;
+      line-height: 1.6;
     }
 
     .button {
       display: inline-block;
-      margin-top: 25px;
-      padding: 13px 25px;
+      margin: 12px 5px 0;
+      padding: 13px 20px;
       background: #f5c400;
       color: #111;
       text-decoration: none;
@@ -116,6 +121,7 @@
     .card p {
       color: #aaa;
       font-size: 14px;
+      line-height: 1.5;
     }
 
     .download {
@@ -131,6 +137,33 @@
       background: #08080b;
       color: #777;
     }
+
+    /* APP BOTTOM NAVIGATION */
+
+    .app-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #111118;
+      border-top: 2px solid #f5c400;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 5px;
+      z-index: 9999;
+    }
+
+    .app-nav a {
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .app-nav span {
+      display: block;
+      margin-top: 4px;
+    }
   </style>
 </head>
 
@@ -141,7 +174,7 @@
     <p>Your Call of Duty Mobile Community</p>
   </header>
 
-  <nav>
+  <nav class="top-nav">
     <a href="#news">News</a>
     <a href="#guides">Guides</a>
     <a href="#settings">Settings</a>
@@ -160,30 +193,36 @@
   </div>
 
   <section id="news">
-    .app-nav {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #111118;
-  border-top: 2px solid #f5c400;
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 5px;
-  z-index: 9999;
-}
+    <h2>🔥 CODM News</h2>
 
-.app-nav a {
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  font-size: 12px;
-}
+    <div class="cards">
 
-.app-nav span {
-  display: block;
-  margin-top: 4px;
-<section id="guides">
+      <div class="card">
+        <h3>🎯 Game Updates</h3>
+        <p>
+          Stay updated with the latest Call of Duty Mobile
+          updates and changes.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🎁 Events</h3>
+        <p>
+          Discover upcoming events, challenges and rewards.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🔫 New Weapons</h3>
+        <p>
+          Learn about new weapons and how to use them.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="guides">
     <h2>🔫 CODM Guides</h2>
 
     <div class="cards">
@@ -248,54 +287,47 @@
       <h2>📥 Downloads</h2>
 
       <p>
-        Useful CODM resources and gaming files will be available here.
+        Useful CODM resources and gaming files are available here.
       </p>
 
-      <a class="button" href="#">
-        Downloads Coming Soon
-      </a><a class="button" href="CODM-Sensitivity-Guide.txt" download>
-  📥 Download Sensitivity Guide
-</a><a class="button" href="CODM-Weapon-Guides.txt" download>
-  🔫 Download Weapon Guides
-</a>
+      <a class="button" href="CODM-Sensitivity-Guide.txt" download>
+        📥 Download Sensitivity Guide
+      </a>
+
+      <a class="button" href="CODM-Weapon-Guides.txt" download>
+        🔫 Download Weapon Guides
+      </a>
 
     </div>
 
   </section>
 
-  <footer>.app-nav {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #111118;
-  border-top: 2px solid #f5c400;
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 5px;
-  z-index: 9999;
-}
-
-.app-nav a {
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  font-size: 12px;
-}
-
-.app-nav span {
-  display: block;
-  margin-top: 4px;
-}
+  <footer>
     <p>© 2026 CODM Hub</p>
     <p>Independent Call of Duty Mobile fan website.</p>
   </footer>
 
+  <nav class="app-nav">
+    <a href="#news">
+      🏠
+      <span>Home</span>
+    </a>
+
+    <a href="#guides">
+      🔫
+      <span>Weapons</span>
+    </a>
+
+    <a href="#settings">
+      ⚙️
+      <span>Settings</span>
+    </a>
+
+    <a href="#downloads">
+      📥
+      <span>Downloads</span>
+    </a>
+  </nav>
+
 </body>
-<nav class="app-nav">
-  <a href="#news">🏠<span>Home</span></a>
-  <a href="#guides">🔫<span>Weapons</span></a>
-  <a href="#settings">⚙️<span>Settings</span></a>
-  <a href="#downloads">📥<span>Downloads</span></a>
-</nav>
 </html>
